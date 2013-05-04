@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188CED00163A91F400BCE776 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188CECFF163A91F400BCE776 /* UIKit.framework */; };
+		188CED02163A91F400BCE776 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188CED01163A91F400BCE776 /* Foundation.framework */; };
+		188CED04163A91F400BCE776 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188CED03163A91F400BCE776 /* CoreGraphics.framework */; };
+		188CED0A163A91F400BCE776 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 188CED08163A91F400BCE776 /* InfoPlist.strings */; };
+		188CED0C163A91F400BCE776 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188CED0B163A91F400BCE776 /* main.m */; };
+		188CED10163A91F400BCE776 /* RotekAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188CED0F163A91F400BCE776 /* RotekAppDelegate.m */; };
+		188CED13163A91F400BCE776 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188CED11163A91F400BCE776 /* MainStoryboard.storyboard */; };
+		188CED16163A91F400BCE776 /* RotekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188CED15163A91F400BCE776 /* RotekViewController.m */; };
+		188CED21163A925000BCE776 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188CED20163A925000BCE776 /* AudioToolbox.framework */; };
+		188CED25163A938600BCE776 /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 188CED23163A938600BCE776 /* crunch.wav */; };
+		188CED26163A938600BCE776 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 188CED24163A938600BCE776 /* win.wav */; };
+		188CED28163A939C00BCE776 /* tap.aif in Resources */ = {isa = PBXBuildFile; fileRef = 188CED27163A939C00BCE776 /* tap.aif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		188CECFB163A91F400BCE776 /* SystemSoundServices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemSoundServices.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188CECFF163A91F400BCE776 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		188CED01163A91F400BCE776 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		188CED03163A91F400BCE776 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		188CED07163A91F400BCE776 /* SystemSoundServices-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SystemSoundServices-Info.plist"; sourceTree = "<group>"; };
+		188CED09163A91F400BCE776 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		188CED0B163A91F400BCE776 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		188CED0D163A91F400BCE776 /* SystemSoundServices-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SystemSoundServices-Prefix.pch"; sourceTree = "<group>"; };
+		188CED0E163A91F400BCE776 /* RotekAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotekAppDelegate.h; sourceTree = "<group>"; };
+		188CED0F163A91F400BCE776 /* RotekAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotekAppDelegate.m; sourceTree = "<group>"; };
+		188CED12163A91F400BCE776 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		188CED14163A91F400BCE776 /* RotekViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotekViewController.h; sourceTree = "<group>"; };
+		188CED15163A91F400BCE776 /* RotekViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotekViewController.m; sourceTree = "<group>"; };
+		188CED20163A925000BCE776 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		188CED23163A938600BCE776 /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crunch.wav; sourceTree = "<group>"; };
+		188CED24163A938600BCE776 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		188CED27163A939C00BCE776 /* tap.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = tap.aif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188CECF8163A91F400BCE776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188CED21163A925000BCE776 /* AudioToolbox.framework in Frameworks */,
+				188CED00163A91F400BCE776 /* UIKit.framework in Frameworks */,
+				188CED02163A91F400BCE776 /* Foundation.framework in Frameworks */,
+				188CED04163A91F400BCE776 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188CECF0163A91F400BCE776 = {
+			isa = PBXGroup;
+			children = (
+				188CED20163A925000BCE776 /* AudioToolbox.framework */,
+				188CED05163A91F400BCE776 /* SystemSoundServices */,
+				188CECFE163A91F400BCE776 /* Frameworks */,
+				188CECFC163A91F400BCE776 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		188CECFC163A91F400BCE776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188CECFB163A91F400BCE776 /* SystemSoundServices.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188CECFE163A91F400BCE776 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				188CECFF163A91F400BCE776 /* UIKit.framework */,
+				188CED01163A91F400BCE776 /* Foundation.framework */,
+				188CED03163A91F400BCE776 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		188CED05163A91F400BCE776 /* SystemSoundServices */ = {
+			isa = PBXGroup;
+			children = (
+				188CED0E163A91F400BCE776 /* RotekAppDelegate.h */,
+				188CED0F163A91F400BCE776 /* RotekAppDelegate.m */,
+				188CED11163A91F400BCE776 /* MainStoryboard.storyboard */,
+				188CED14163A91F400BCE776 /* RotekViewController.h */,
+				188CED15163A91F400BCE776 /* RotekViewController.m */,
+				188CED27163A939C00BCE776 /* tap.aif */,
+				188CED23163A938600BCE776 /* crunch.wav */,
+				188CED24163A938600BCE776 /* win.wav */,
+				188CED06163A91F400BCE776 /* Supporting Files */,
+			);
+			path = SystemSoundServices;
+			sourceTree = "<group>";
+		};
+		188CED06163A91F400BCE776 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				188CED07163A91F400BCE776 /* SystemSoundServices-Info.plist */,
+				188CED08163A91F400BCE776 /* InfoPlist.strings */,
+				188CED0B163A91F400BCE776 /* main.m */,
+				188CED0D163A91F400BCE776 /* SystemSoundServices-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188CECFA163A91F400BCE776 /* SystemSoundServices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188CED19163A91F400BCE776 /* Build configuration list for PBXNativeTarget "SystemSoundServices" */;
+			buildPhases = (
+				188CECF7163A91F400BCE776 /* Sources */,
+				188CECF8163A91F400BCE776 /* Frameworks */,
+				188CECF9163A91F400BCE776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SystemSoundServices;
+			productName = SystemSoundServices;
+			productReference = 188CECFB163A91F400BCE776 /* SystemSoundServices.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188CECF2163A91F400BCE776 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Rotek;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Rotek;
+			};
+			buildConfigurationList = 188CECF5163A91F400BCE776 /* Build configuration list for PBXProject "SystemSoundServices" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 188CECF0163A91F400BCE776;
+			productRefGroup = 188CECFC163A91F400BCE776 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188CECFA163A91F400BCE776 /* SystemSoundServices */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188CECF9163A91F400BCE776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188CED0A163A91F400BCE776 /* InfoPlist.strings in Resources */,
+				188CED13163A91F400BCE776 /* MainStoryboard.storyboard in Resources */,
+				188CED25163A938600BCE776 /* crunch.wav in Resources */,
+				188CED26163A938600BCE776 /* win.wav in Resources */,
+				188CED28163A939C00BCE776 /* tap.aif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188CECF7163A91F400BCE776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188CED0C163A91F400BCE776 /* main.m in Sources */,
+				188CED10163A91F400BCE776 /* RotekAppDelegate.m in Sources */,
+				188CED16163A91F400BCE776 /* RotekViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		188CED08163A91F400BCE776 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188CED09163A91F400BCE776 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		188CED11163A91F400BCE776 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188CED12163A91F400BCE776 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		188CED17163A91F400BCE776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		188CED18163A91F400BCE776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		188CED1A163A91F400BCE776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SystemSoundServices/SystemSoundServices-Prefix.pch";
+				INFOPLIST_FILE = "SystemSoundServices/SystemSoundServices-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		188CED1B163A91F400BCE776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SystemSoundServices/SystemSoundServices-Prefix.pch";
+				INFOPLIST_FILE = "SystemSoundServices/SystemSoundServices-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188CECF5163A91F400BCE776 /* Build configuration list for PBXProject "SystemSoundServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188CED17163A91F400BCE776 /* Debug */,
+				188CED18163A91F400BCE776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188CED19163A91F400BCE776 /* Build configuration list for PBXNativeTarget "SystemSoundServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188CED1A163A91F400BCE776 /* Debug */,
+				188CED1B163A91F400BCE776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 188CECF2163A91F400BCE776 /* Project object */;
+}
